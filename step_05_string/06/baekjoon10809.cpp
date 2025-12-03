@@ -19,17 +19,18 @@
 #include<iostream>
 #include<string>
 using namespace std;
+constexpr int alpha = 26;
+
 
 int main()
 {
-	string S;
-	cin >> S;
-	if (S.size() > 100)return 0;
+	int is_same[alpha] = { -1 };
+	string S ;
+	cin>> S;
+	if(S.size()>100) return 0;
 
-	for (int j = (int)'a'; j < (int)'z'; ++j)
-		for (int i = 0; i < S.size(); ++i)
-			if (j = S[i]) {
-				cout << j - 98 << ' ';
-				break;
-			}
+	for (int i = (int)'a'; i < (int)'z'; ++i) {
+		if (S[j] == i) cout << j << ' ';
+	}
+	return 0;
 }

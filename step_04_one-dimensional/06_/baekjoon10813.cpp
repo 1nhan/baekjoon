@@ -39,8 +39,9 @@ void print_answer()
 	if (M > 100 || 1 > M) return;
 	for (int n = 1; n < N; ++n) arr[n] = n;
 
+	cin >> i >> j;
 	for (int n = 1; n < M + 1; ++N) {
-		cin >> i >> j;
+		
 	}
 
 }
